@@ -29,6 +29,7 @@ header{
     left: 0;
     background-color: black;
     text-align: end;
+    z-index: 100;
 }
 .speaker, .triarrow{
     display: inline-block;
