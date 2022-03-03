@@ -1,0 +1,32 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid black;
+}
+/* header */
+header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    text-align: end;
+}
+.speaker, .triarrow{
+    display: inline-block;
+    background-color: #646464;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin: 12px 0;
+}
+.fa-solid.fa-table-cells{
+    padding-right: 3px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+
